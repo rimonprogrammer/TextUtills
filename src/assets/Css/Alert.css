@@ -1,0 +1,36 @@
+.alert_aria{
+    display: flex;
+    justify-content: center;
+}
+.alert_section{
+    top: 1px;
+    position: absolute;
+}
+.alert{
+    width: 400px;
+    padding: 6px 10px 5px 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+@media (max-width:576px){
+    .alert{
+        width: 300px;
+    }
+}
+@media (max-width:420px){
+    .alert{
+        width: 230px;
+        font-size: 12px;
+    }
+}
+@media (max-width:350px){
+    .alert{
+        width: 180px;
+        font-size: 12px;
+        padding: 6px 5px 5px 5px;
+    }
+}
